@@ -1,3 +1,3 @@
-# python-api-challenge
+# Ideal-Vacation-Destinations-Map
 
 This depository contains a pair of jupyter notebooks which use the Open Weather and Google APIs to visual data on the weather, create a csv file containing that data and then uses this data to find vacation locations that match the user's preferred weather conditions and suggests the top hotel in each location. The WeatherPY.py script retrieves the data on the cities nearest to randomized coordinates and creates separate plots of certain values for the northern and southern hemispheres. The csv file which is included is generated from this script. VacationPy.py then takes this data and creates a map using gmaps with a heatmap showing humidity levels and also markers for each city with the ideal conditions.
